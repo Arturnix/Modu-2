@@ -1,6 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
-        SprawdzanieArgumentow.checkIsNumberZero();
+        //SprawdzanieArgumentow.checkIsNumberZero();
+
+        double mean = Srednia3Liczb.calculateMeanValue();
+        System.out.println(mean);
+
+
     }
 }
