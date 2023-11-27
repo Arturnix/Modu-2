@@ -16,6 +16,8 @@ public class Trojkat {
             }
         } while (triangleLevels <= 0);
 
+        scanner.close();
+
             for (int i = 1; i <= triangleLevels; i++) {
                 for (int j = i; j > 0; j--) {
                     System.out.print('*');
