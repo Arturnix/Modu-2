@@ -3,9 +3,11 @@ public class Main {
 
         //SprawdzanieArgumentow.checkIsNumberZero();
 
-        double mean = Srednia3Liczb.calculateMeanValue();
-        System.out.println(mean);
+        //double mean = Srednia3Liczb.calculateMeanValue();
+        //System.out.println(mean);
 
+        //System.out.println(NajmniejszaLiczba.lowestValue());
+        NajmniejszaLiczba.lowestValueArray();
 
     }
 }
