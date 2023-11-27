@@ -44,7 +44,7 @@ public class NajmniejszaLiczba {
                 lowestValue = inputNumber[i];
             }
         }
-
+        scanner.close();
         System.out.println(lowestValue);
     }
 }

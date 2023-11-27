@@ -7,7 +7,8 @@ public class Main {
         //System.out.println(mean);
 
         //System.out.println(NajmniejszaLiczba.lowestValue());
-        NajmniejszaLiczba.lowestValueArray();
+        //NajmniejszaLiczba.lowestValueArray();
 
+        Trojkat.printStarTriangle();
     }
 }
