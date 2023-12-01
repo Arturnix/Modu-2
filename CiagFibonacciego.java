@@ -5,17 +5,20 @@ public class CiagFibonacciego {
             if(howManyElements <= 0) {
                 System.out.println("Provide number > 0");
                 System.exit(0);
-            }
+            } else if (howManyElements == 1) {
+                System.out.print(0);
+            } else {
 
-            int[] fibonacciElements = new int[howManyElements];
+                int[] fibonacciElements = new int[howManyElements];
 
-            System.out.print(0 + ", ");
-            fibonacciElements[0] = 0;
-            System.out.print(1 + ", ");
-            fibonacciElements[1] = 1;
-            for (int i = 2; i < howManyElements; i++) {
-                fibonacciElements[i] = fibonacciElements[i - 1] + fibonacciElements[i - 2];
-                System.out.print(fibonacciElements[i] + ", ");
+                System.out.print(0 + ", ");
+                fibonacciElements[0] = 0;
+                System.out.print(1 + ", ");
+                fibonacciElements[1] = 1;
+                for (int i = 2; i < howManyElements; i++) {
+                    fibonacciElements[i] = fibonacciElements[i - 1] + fibonacciElements[i - 2];
+                    System.out.print(fibonacciElements[i] + ", ");
+                }
             }
         }
     }
